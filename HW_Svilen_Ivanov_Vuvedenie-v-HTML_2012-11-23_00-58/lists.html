@@ -1,0 +1,42 @@
+<!Doctype HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lists</title>
+</head>
+
+	<body>
+<p>
+    Lorem ipsum and other stuff.
+</p>
+<!-- http://stackoverflow.com/questions/2265718/wrong-example-of-nested-ul-li-on-very-well-known-web-design-tutorial-site -->
+		<ol type="I"> <!-- I wanted to use the style="list-style-type:" but this would defeat th purpose of this exercise :) -->
+			<li> List item 1</li>
+				<ol type="a">
+					<li>Nested item 1.1</li>
+					<li>Nested item 1.2</li>
+				</ol>
+			<li>List item 2</li>
+				<ol type="1">
+					<li>Nested item 2.1</li>
+					<li>Nested item 2.2</li>
+                        	<ul type="circle"> 
+							<li>Nested item 2.2.1</li>
+							<li>Nested item 2.2.2</li>				
+                                <ul type="square">
+									<li>Nested item 2.2.2.1</li>
+									<li>Nested item 2.2.2.2</li>
+								</ul>	                   
+							<li>Nested item 2.2.3</li>								
+						</ul>
+					<li>Nested item 2.3</li>						
+				</ol>
+			<li>List item 3</li>
+				<ul type="disc">
+					<li>Nested item 3.1</li>
+					<li>Nested item 3.2</li>
+					<li>Nested item 3.3</li>
+				</ul>
+        </ol>
+	</body>
+</html>
